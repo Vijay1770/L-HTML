@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    hello <br>
+    <h1 style="background-color: aqua;">my name is love</h1>
+    <h2 style="background-color:palevioletred;">my name is love</h2>
+    <h6>my name is love</h6>
+     
+ <!-- anchor tag -->
+
+    <a href="https://www.google.com">Google </a>
+    <li><a href="mailto:m.bluth@example.com">Email</a></li>
+
+    <!-- LISTS -->
+<!-- "ul>li*5" shorcut for lists-->
+    <ul>
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+        <li>d</li>
+    </ul>
+
+<!-- "ol>li*5" shorcut for lists-->
+  <ol>
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+    <li>d</li>
+    <li>e</li>
+  </ol>
+              
+  <!-- Description List -->
+  <dl>
+      <dt>coffee</dt>
+    <dd>this is coffee</dd>
+   <dt>coffee</dt>
+    <dd>this is coffee</dd>
+  </dl>
+<!-- TABLES -->
+<!-- "table>(tr>td*3)*3" Shrotcut for table -->
+  <table border="1">
+    <tr>
+        <td>No.</td>
+        <td>name</td>
+        <td>age</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>vijay</td>
+        <td>22</td>
+    </tr><tr>
+        <td>2</td>
+        <td>nikhil</td>
+        <td>23</td>
+    </tr>
+
+  </table>
+
+<!-- FORMATTING TAGS -->
+
+  <p>Lorem ipsum <b>dolor</b> sit <u>amet</u> Lorem <em>ipsum</em> dolor sit amet <i>consectetur</i> adipisicing..</p>
+   H<sub>2</sub>O
+   <br>
+   2<sup>9</sup>
+
+   <pre>
+    My name is vijay
+    im am a student 
+    of sirt S
+    college
+   </pre>
+   
+   <!-- Shortcut or emmets " p>p>p>p"-->
+   <!-- Shrotcut for creating id " p#para1 " -->
+  
+    <!-- Shrotcut for creating Class " p.para1 " -->
+
+    <!-- Block element -->
+ <div class="one" style="background-color: aqua;">
+   THis is my first div tag 
+ </div>
+<div class="one" style="background-color:blue;">
+  THis is my first div tag
+</div>
+<!-- "display: inline" is used for convert the block to inline element -->
+<div class="one" style="background-color:blue;display: inline;">
+  THis is my first div tag
+</div>
+<!-- Inline element -->
+<span style="background-color: aqua;">This is an span tag </span>
+<span style="background-color: rgb(33, 224, 19);">THis is another span tag</span>
+  
+<!-- shortcut "ul>(li>p>a)*7" result is shown below-->
+
+<ul>
+  <li>
+    <a href="https://www.instagram.com">Instagram</a>
+  </li>
+  <li>
+    <p><a href="mailto:gourvijay988@gmail.com">EMAIL</a></p>
+  </li>
+  <li>
+    <p><a href="tel:9301361942">CALL US</a></p>
+  </li>
+  <li>
+    <p><a href="">D</a></p>
+  </li>
+  <li>
+    <p><a href="">E</a></p>
+  </li>
+  <li>
+    <p><a href="">F</a></p>
+  </li>
+  <li>
+    <p><a href="">G</a></p>
+  </li>
+</ul>
+
+
+<table border="1">
+
+<thead>
+  <th>Student Id</th>
+  <th>Student Name</th>
+  <th>Gender</th>
+  <th>Age</th>
+</thead>
+
+<tbody>
+  <tr>
+    <td>56</td>
+    <td>mayank</td>
+    <td>Male</td>
+    <td>18</td>
+  </tr>
+  <tr>
+    <td>134</td>
+    <td>vijay</td>
+    <td>Male</td>
+    <td rowspan="3">19</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>anjali</td>
+    <td>Female</td>
+   
+  </tr>
+  <tr>
+    <td>12678</td>
+    <td>nikita</td>
+    <td>female</td>
+
+  </tr>
+</tbody>
+
+</table>
+<br>
+<!-- second table -->
+
+<table border="2">
+  <thead>
+  <th>NO.</th>
+  <th>Full Name</th>
+  <th>Position</th>
+  <th>Salary</th>
+  <th>Type</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>A</td>
+      <td>manager</td>
+      <td>1000</td>
+      <td rowspan="4">company founder</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>B</td>
+      <td>gatekeeper</td>
+      <td>500</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>C</td>
+      <td>owner</td>
+      <td>100000</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>D</td>
+      <td>hod</td>
+      <td>4000</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <td colspan="3">Total Expense:</td>
+    <td>105000</td>
+  </tfoot>
+</table>
+<br>
+
+<!-- fieldset are a type of box which contail whole data in a rctangular box shown below -->
+<fieldset>
+  <!-- legend are used for give the heading of a form  -->
+  <legend>Campus Drive Form</legend>
+<!-- Forms Creations -->
+
+<form action="/action_page.php" method="get">
+  <label for="email">Email</label>
+  <input type="email" id ="email" placeholder="gour@gmail.com"><br><br>
+  <label for="phone">Mobile</label>
+  <input type="number" id="phone" placeholder="+91..."><br><br>
+  <label for="password">Password</label>
+  <input type="password" id="password" placeholder="123#@fd&"><br><br>
+ <button>Click</button>
+ <!-- another method of button creation by input tag -->
+<input type="submit" value="Click Here"><br><br>
+<label for="date">Birth Date</label>
+<input type="date"id ="datepicker">
+<!-- radio button -->
+<br><br>
+  <label for="radio1">
+    <input type="radio" class="radio1" name="a" id="" value="checkedValue" checked>
+     Graduate
+  </label><br><br>
+  <label for="radio2">
+    <input type="radio" class="radio2" name="a" id="" value="checkedValue" checked>
+    Under Graduate
+  </label><br><br>
+  <label for="radio3">
+    <input type="radio" class="radio3" name="a" id="" value="checkedValue" checked>
+    Post Graduate
+  </label>
+<!-- selet -->
+<br><br>
+<label for="dishes">Choose your dish</label>
+<select name="dishes" id="s1">
+  <option value="maggie">maggie</option>
+  <option value="paneer">paneer</option>
+  <option value="daal">daal</option>
+</select>
+<!-- checkbox -->
+</BR></BR>
+<label for="checkbox1">BOY</label>
+<input type="checkbox"name="b"value="checkedValue"checked>
+<label for="checkbox2">GIRL</label>
+<input type="checkbox" name="b" value="checkedValue"checked>
+<label for="checkbox3">MID</label>
+<input type="checkbox"name="b"value="check"checked>
+<!-- file -->
+<label for="file1"></label>
+<input type="file"name="file1"value="file1">
+</div>
+<!-- textarea is a text box  -->
+<br><br>
+  <textarea name="txtaria" id="txt" cols="30" rows="10" placeholder="Write your thoughts..."></textarea>
+</form>
+</fieldset>
+
+</body>
+</html>   
